@@ -1,0 +1,10 @@
+Package: luci-i18n-webrestriction-zh-cn
+Version: git-21.100.23753-0ea49c3
+Depends: libc, luci-app-webrestriction
+Source: feeds/luci/applications/luci-app-webrestriction
+SourceName: luci-i18n-webrestriction-zh-cn
+Section: luci
+SourceDateEpoch: 1702223703
+Architecture: all
+Installed-Size: 824
+Description:  Translation for luci-app-webrestriction - 简体中文 (Chinese Simplified)

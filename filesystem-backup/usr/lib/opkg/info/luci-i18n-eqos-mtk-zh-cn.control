@@ -1,0 +1,11 @@
+Package: luci-i18n-eqos-mtk-zh-cn
+Version: git-24.317.30717-fa0b760
+Depends: libc, luci-app-eqos-mtk
+Source: package/mtk/applications/luci-app-eqos-mtk
+SourceName: luci-i18n-eqos-mtk-zh-cn
+Section: luci
+SourceDateEpoch: 1731400317
+Maintainer: Jianhui Zhao <jianhuizhao329@gmail.com>
+Architecture: all
+Installed-Size: 861
+Description:  Translation for luci-app-eqos-mtk - 简体中文 (Chinese Simplified)

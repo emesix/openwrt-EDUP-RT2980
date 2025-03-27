@@ -1,0 +1,13 @@
+Package: libnl-genl200
+Version: 3.5.0-1
+Depends: libc, libnl-core200
+Provides: libnl-genl
+Source: package/libs/libnl
+SourceName: libnl-genl
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1731400317
+ABIVersion: 200
+Architecture: aarch64_cortex-a53
+Installed-Size: 8517
+Description:  Generic Netlink Library Functions

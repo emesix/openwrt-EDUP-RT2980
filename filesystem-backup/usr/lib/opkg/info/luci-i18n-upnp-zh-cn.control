@@ -1,0 +1,10 @@
+Package: luci-i18n-upnp-zh-cn
+Version: git-23.090.62029-650e6d2
+Depends: libc, luci-app-upnp
+Source: feeds/luci/applications/luci-app-upnp
+SourceName: luci-i18n-upnp-zh-cn
+Section: luci
+SourceDateEpoch: 1680282829
+Architecture: all
+Installed-Size: 1554
+Description:  Translation for luci-app-upnp - 简体中文 (Chinese Simplified)

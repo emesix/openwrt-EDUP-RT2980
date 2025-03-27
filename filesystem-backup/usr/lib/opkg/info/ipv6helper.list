@@ -1,0 +1,2 @@
+/etc/uci-defaults/60-ipv6-hybrid
+/etc/hotplug.d/iface/60-6in4

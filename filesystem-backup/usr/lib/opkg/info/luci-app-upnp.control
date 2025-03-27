@@ -1,0 +1,11 @@
+Package: luci-app-upnp
+Version: git-20.332.74200-03c77da
+Depends: libc, miniupnpd
+Source: feeds/luci/applications/luci-app-upnp
+SourceName: luci-app-upnp
+Section: luci
+SourceDateEpoch: 1680282829
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 4145
+Description:  Universal Plug & Play configuration module

@@ -1,0 +1,10 @@
+/www/luci-static/resources/view/zerotier/interface.js
+/etc/uci-defaults/40_luci-zerotier
+/etc/init.d/zerotier
+/etc/zerotier/zerotier.log
+/usr/share/rpcd/acl.d/luci-app-zerotier.json
+/etc/zerotier.stop
+/usr/share/luci/menu.d/luci-app-zerotier.json
+/etc/zerotier.reload
+/etc/zerotier.start
+/www/luci-static/resources/view/zerotier/base.js

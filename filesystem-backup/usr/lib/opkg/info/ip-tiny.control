@@ -1,0 +1,15 @@
+Package: ip-tiny
+Version: 5.11.0-3
+Depends: libc, libnl-tiny2022-05-17
+Provides: ip
+Alternatives: 200:/sbin/ip:/usr/libexec/ip-tiny
+Source: package/network/utils/iproute2
+SourceName: ip-tiny
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1731400317
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 150869
+Description:  Routing control utility (minimal)

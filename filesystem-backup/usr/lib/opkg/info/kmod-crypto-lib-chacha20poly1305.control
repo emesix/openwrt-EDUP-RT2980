@@ -1,0 +1,11 @@
+Package: kmod-crypto-lib-chacha20poly1305
+Version: 5.4.284-1
+Depends: kernel (=5.4.284-1-e594bb8dff708c7d35028b1e1b5391b3), kmod-crypto-lib-chacha20, kmod-crypto-lib-poly1305
+Source: package/kernel/linux
+SourceName: kmod-crypto-lib-chacha20poly1305
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1731400317
+Architecture: aarch64_cortex-a53
+Installed-Size: 3776
+Description:  ChaCha20-Poly1305 AEAD support (8-byte nonce library version)

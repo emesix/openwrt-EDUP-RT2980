@@ -1,0 +1,11 @@
+Package: mtwifi-cfg
+Version: 1-1
+Depends: libc, iwinfo, wifi-dats, lua-cjson, datconf-lua
+Source: package/mtk/applications/mtwifi-cfg
+SourceName: mtwifi-cfg
+License: GPL-2.0+
+Section: MTK Properties
+SourceDateEpoch: 1731400317
+Architecture: aarch64_cortex-a53
+Installed-Size: 14535
+Description:  mtwifi configure scripts for mt798x

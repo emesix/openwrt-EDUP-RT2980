@@ -1,0 +1,2 @@
+/etc/modules.d/20-mediatek_hnat
+/lib/modules/5.4.284/mtkhnat.ko

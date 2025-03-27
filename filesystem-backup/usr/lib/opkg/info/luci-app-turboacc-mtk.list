@@ -1,0 +1,7 @@
+/etc/uci-defaults/turboacc
+/usr/share/rpcd/acl.d/luci-app-turboacc.json
+/etc/init.d/turboacc
+/usr/share/luci/menu.d/luci-app-turboacc.json
+/etc/config/turboacc
+/www/luci-static/resources/view/turboacc.js
+/usr/libexec/rpcd/luci.turboacc

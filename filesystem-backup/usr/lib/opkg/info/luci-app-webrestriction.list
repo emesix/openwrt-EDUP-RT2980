@@ -1,0 +1,8 @@
+/usr/share/rpcd/acl.d/luci-app-webrestriction.json
+/usr/lib/lua/luci/controller/webrestriction.lua
+/etc/uci-defaults/luci-app-control-webrestriction
+/usr/lib/lua/luci/model/cbi/webrestriction.lua
+/etc/init.d/webrestriction
+/usr/lib/lua/luci/view/webrestriction/webrestriction.htm
+/usr/lib/lua/luci/view/webrestriction/index.htm
+/etc/config/webrestriction

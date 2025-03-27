@@ -1,0 +1,11 @@
+Package: luci-i18n-turboacc-mtk-zh-cn
+Version: git-24.317.30717-fa0b760
+Depends: libc, luci-app-turboacc-mtk
+Source: package/mtk/applications/luci-app-turboacc-mtk
+SourceName: luci-i18n-turboacc-mtk-zh-cn
+License: GPL-3.0-only
+Section: luci
+SourceDateEpoch: 1731400317
+Architecture: all
+Installed-Size: 1560
+Description:  Translation for luci-app-turboacc-mtk - 简体中文 (Chinese Simplified)

@@ -1,0 +1,10 @@
+Package: luci-i18n-mtwifi-cfg-zh-cn
+Version: git-24.317.30717-fa0b760
+Depends: libc, luci-app-mtwifi-cfg
+Source: package/mtk/applications/luci-app-mtwifi-cfg
+SourceName: luci-i18n-mtwifi-cfg-zh-cn
+Section: luci
+SourceDateEpoch: 1731400317
+Architecture: all
+Installed-Size: 763
+Description:  Translation for luci-app-mtwifi-cfg - 简体中文 (Chinese Simplified)

@@ -1,0 +1,11 @@
+Package: default-settings
+Version: 1.1-1
+Depends: libc, luci-lib-base
+Source: package/emortal/default-settings
+SourceName: default-settings
+License: GPL-3.0
+Section: luci
+SourceDateEpoch: 1731400317
+Architecture: all
+Installed-Size: 544
+Description:  LuCI support for Default Settings

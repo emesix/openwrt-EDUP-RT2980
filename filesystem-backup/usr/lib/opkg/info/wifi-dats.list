@@ -1,0 +1,6 @@
+/etc/wireless/l1profile.dat
+/lib/upgrade/keep.d/wifi-dats
+/etc/wireless/mediatek/mt7981-sku-bf.dat
+/etc/wireless/mediatek/mt7981.dbdc.b0.dat
+/etc/wireless/mediatek/mt7981.dbdc.b1.dat
+/etc/wireless/mediatek/mt7981-sku.dat

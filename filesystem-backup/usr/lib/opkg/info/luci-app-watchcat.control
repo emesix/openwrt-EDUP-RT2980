@@ -1,0 +1,11 @@
+Package: luci-app-watchcat
+Version: git-21.081.28017-7bc377f
+Depends: libc, watchcat
+Source: feeds/luci/applications/luci-app-watchcat
+SourceName: luci-app-watchcat
+Section: luci
+SourceDateEpoch: 1680282829
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2227
+Description:  LuCI Support for Watchcat

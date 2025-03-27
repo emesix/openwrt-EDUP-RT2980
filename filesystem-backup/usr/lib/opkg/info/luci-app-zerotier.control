@@ -1,0 +1,11 @@
+Package: luci-app-zerotier
+Version: git-23.003.24878-51a6333
+Depends: libc, zerotier
+Source: feeds/luci/applications/luci-app-zerotier
+SourceName: luci-app-zerotier
+Section: luci
+SourceDateEpoch: 1702780698
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3762
+Description:  LuCI for Zerotier

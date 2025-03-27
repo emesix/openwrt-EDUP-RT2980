@@ -1,0 +1,12 @@
+Package: kmod-ipt-ipmark
+Version: 5.4.284+3.21-1
+Depends: kernel (=5.4.284-1-e594bb8dff708c7d35028b1e1b5391b3), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-ipmark
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1669193453
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1391
+Description:  IPMARK netfilter module

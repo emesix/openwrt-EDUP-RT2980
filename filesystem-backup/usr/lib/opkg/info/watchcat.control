@@ -1,0 +1,12 @@
+Package: watchcat
+Version: 1-12
+Depends: libc
+Source: feeds/packages/utils/watchcat
+SourceName: watchcat
+License: GPL-2.0
+Section: utils
+SourceDateEpoch: 1616067812
+Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: all
+Installed-Size: 3303
+Description:  Restart network interfaces or reboot if pings to hosts fail, or set up periodic reboots. Configured via UCI /etc/config/watchcat

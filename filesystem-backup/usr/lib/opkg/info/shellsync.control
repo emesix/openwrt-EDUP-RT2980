@@ -1,0 +1,10 @@
+Package: shellsync
+Version: 0.2-2
+Depends: libc, libpthread, kmod-macvlan
+Source: package/network/services/shellsync
+SourceName: shellsync
+Section: opt
+SourceDateEpoch: 1731400317
+Architecture: aarch64_cortex-a53
+Installed-Size: 1944
+Description:  A tool to sync different shell scripts.Based on syncppp patch by morfast.

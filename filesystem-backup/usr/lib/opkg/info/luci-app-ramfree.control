@@ -1,0 +1,11 @@
+Package: luci-app-ramfree
+Version: 1.0
+Depends: libc
+Source: feeds/luci/applications/luci-app-ramfree
+SourceName: luci-app-ramfree
+Section: luci
+SourceDateEpoch: 1621015280
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 603
+Description:  luci-app-ramfree

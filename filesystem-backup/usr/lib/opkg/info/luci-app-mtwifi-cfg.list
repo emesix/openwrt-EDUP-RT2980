@@ -1,0 +1,3 @@
+/etc/uci-defaults/luci-app-mtwifi-cfg.default
+/usr/share/luci-app-mtwifi-cfg/luci-mod-status.json
+/usr/share/luci-app-mtwifi-cfg/wireless-mtk.js

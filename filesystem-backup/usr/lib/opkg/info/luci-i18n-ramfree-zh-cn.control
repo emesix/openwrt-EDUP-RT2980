@@ -1,0 +1,10 @@
+Package: luci-i18n-ramfree-zh-cn
+Version: git-21.134.64880-4f62c44
+Depends: libc, luci-app-ramfree
+Source: feeds/luci/applications/luci-app-ramfree
+SourceName: luci-i18n-ramfree-zh-cn
+Section: luci
+SourceDateEpoch: 1621015280
+Architecture: all
+Installed-Size: 421
+Description:  Translation for luci-app-ramfree - 简体中文 (Chinese Simplified)

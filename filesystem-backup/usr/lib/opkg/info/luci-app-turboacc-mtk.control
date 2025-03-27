@@ -1,0 +1,12 @@
+Package: luci-app-turboacc-mtk
+Version: git-24.317.30717-fa0b760
+Depends: libc, kmod-tcp-bbr
+Source: package/mtk/applications/luci-app-turboacc-mtk
+SourceName: luci-app-turboacc-mtk
+License: GPL-3.0-only
+Section: luci
+SourceDateEpoch: 1731400317
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5646
+Description:  LuCI support for MTK HNAT

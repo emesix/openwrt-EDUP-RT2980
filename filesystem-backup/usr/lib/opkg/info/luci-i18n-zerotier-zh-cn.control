@@ -1,0 +1,10 @@
+Package: luci-i18n-zerotier-zh-cn
+Version: git-23.351.09498-f7d44ac
+Depends: libc, luci-app-zerotier
+Source: feeds/luci/applications/luci-app-zerotier
+SourceName: luci-i18n-zerotier-zh-cn
+Section: luci
+SourceDateEpoch: 1702780698
+Architecture: all
+Installed-Size: 882
+Description:  Translation for luci-app-zerotier - 简体中文 (Chinese Simplified)

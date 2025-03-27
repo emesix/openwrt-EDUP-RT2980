@@ -1,0 +1,11 @@
+Package: luci-app-webrestriction
+Version: 1.0
+Depends: libc
+Source: feeds/luci/applications/luci-app-webrestriction
+SourceName: luci-app-webrestriction
+Section: luci
+SourceDateEpoch: 1702223703
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3000
+Description:  LuCI support for Webrestriction

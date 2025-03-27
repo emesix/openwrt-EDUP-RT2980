@@ -1,0 +1,4 @@
+/etc/uci-defaults/60-autocore-reload-rpcd
+/sbin/cpuinfo
+/usr/share/rpcd/acl.d/luci-mod-status-autocore.json
+/sbin/tempinfo

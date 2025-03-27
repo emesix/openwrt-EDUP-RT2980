@@ -1,0 +1,4 @@
+/lib/modules/5.4.284/xt_TEE.ko
+/etc/modules.d/ipt-tee
+/lib/modules/5.4.284/nf_dup_ipv4.ko
+/lib/modules/5.4.284/nf_dup_ipv6.ko

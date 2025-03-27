@@ -1,0 +1,11 @@
+Package: autocore-arm
+Version: 1
+Depends: libc, mhz
+Source: package/emortal/autocore
+SourceName: autocore-arm
+Section: opt
+SourceDateEpoch: 1731400317
+Maintainer: CN_SZTL
+Architecture: aarch64_cortex-a53
+Installed-Size: 1727
+Description:  ARM auto core script.

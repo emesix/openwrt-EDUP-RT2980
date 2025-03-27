@@ -1,0 +1,11 @@
+Package: default-settings-chn
+Version: 1.1-1
+Depends: libc, default-settings, luci-i18n-base-zh-cn
+Source: package/emortal/default-settings
+SourceName: default-settings-chn
+License: GPL-3.0
+Section: luci
+SourceDateEpoch: 1731400317
+Architecture: all
+Installed-Size: 8718
+Description:  LuCI support for Default Settings (Optimize for CHN users)

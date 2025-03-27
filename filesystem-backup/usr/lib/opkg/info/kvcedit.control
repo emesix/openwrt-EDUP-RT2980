@@ -1,0 +1,11 @@
+Package: kvcedit
+Version: 1
+Depends: libc, libkvcutil
+Source: package/mtk/applications/datconf
+SourceName: kvcedit
+Section: util
+SourceDateEpoch: 1731400317
+Maintainer: Weijie Gao <weijie.gao@mediatek.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3823
+Description:  Utility for editing key-value based config files

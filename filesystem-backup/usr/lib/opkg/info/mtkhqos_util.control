@@ -1,0 +1,10 @@
+Package: mtkhqos_util
+Version: 1-r0-fa0b760
+Depends: libc
+Source: package/mtk/applications/mtkhqos_util
+SourceName: mtkhqos_util
+Section: MTK Properties
+SourceDateEpoch: 1731400317
+Architecture: aarch64_cortex-a53
+Installed-Size: 2041
+Description:  mtk hqos util

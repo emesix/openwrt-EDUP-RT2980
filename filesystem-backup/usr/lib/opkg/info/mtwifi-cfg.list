@@ -1,0 +1,10 @@
+/lib/wifi/mtwifi.sh
+/sbin/mtwifi_cfg
+/usr/lib/lua/mtwifi_utils.lua
+/usr/lib/lua/l1dat_parser.lua
+/lib/netifd/wireless/mtwifi.sh
+/etc/hotplug.d/net/10-mtwifi-detect
+/usr/lib/lua/mtwifi_defs.lua
+/sbin/l1util
+/usr/lib/lua/inspect.lua
+/sbin/l1dat

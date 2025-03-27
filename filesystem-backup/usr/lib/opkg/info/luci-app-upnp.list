@@ -1,0 +1,6 @@
+/www/luci-static/resources/view/status/include/80_upnp.js
+/usr/libexec/rpcd/luci.upnp
+/etc/uci-defaults/40_luci-miniupnp
+/www/luci-static/resources/view/upnp/upnp.js
+/usr/share/luci/menu.d/luci-app-upnp.json
+/usr/share/rpcd/acl.d/luci-app-upnp.json

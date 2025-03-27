@@ -1,0 +1,12 @@
+Package: luci-mod-network
+Version: git-22.294.33312-2216cc6
+Depends: libc, luci-base, libiwinfo-lua, rpcd-mod-iwinfo
+Source: feeds/luci/modules/luci-mod-network
+SourceName: luci-mod-network
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1666343712
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 46976
+Description:  LuCI Network Administration

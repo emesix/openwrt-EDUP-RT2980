@@ -1,0 +1,15 @@
+Package: libcbor0
+Version: 0.8.0-1
+Depends: libc
+Provides: libcbor
+Source: feeds/packages/libs/libcbor
+SourceName: libcbor
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1609973585
+ABIVersion: 0
+Maintainer: Linos Giannopoulos <linosgian00+openwrt@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20222
+Description:  libcbor is a C library for parsing and generating CBOR, the general-purpose schema-less binary data format.

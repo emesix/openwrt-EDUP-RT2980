@@ -1,0 +1,11 @@
+Package: luci-app-wireguard
+Version: git-20.244.42172-21563a2
+Depends: libc, wireguard-tools, kmod-wireguard, luci-proto-wireguard
+Source: feeds/luci/applications/luci-app-wireguard
+SourceName: luci-app-wireguard
+Section: luci
+SourceDateEpoch: 1668287671
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3454
+Description:  WireGuard Status

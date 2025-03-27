@@ -1,0 +1,13 @@
+Package: kmod-ipt-fullconenat
+Version: 5.4.284+2019-10-21-0cf3b48f-1
+Depends: kernel (=5.4.284-1-e594bb8dff708c7d35028b1e1b5391b3), kmod-nf-ipt, kmod-nf-nat
+Source: package/network/utils/fullconenat
+SourceName: kmod-ipt-fullconenat
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: kernel
+SourceDateEpoch: 1731400317
+Maintainer: Chion Tang <tech@chionlab.moe>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5489
+Description:  FULLCONENAT netfilter module

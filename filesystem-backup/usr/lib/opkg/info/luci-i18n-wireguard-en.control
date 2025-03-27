@@ -1,0 +1,10 @@
+Package: luci-i18n-wireguard-en
+Version: git-22.316.76471-782c7b6
+Depends: libc, luci-app-wireguard
+Source: feeds/luci/applications/luci-app-wireguard
+SourceName: luci-i18n-wireguard-en
+Section: luci
+SourceDateEpoch: 1668287671
+Architecture: all
+Installed-Size: 361
+Description:  Translation for luci-app-wireguard - English

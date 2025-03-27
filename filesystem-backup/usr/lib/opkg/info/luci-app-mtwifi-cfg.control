@@ -1,0 +1,11 @@
+Package: luci-app-mtwifi-cfg
+Version: 1
+Depends: libc, mtwifi-cfg
+Source: package/mtk/applications/luci-app-mtwifi-cfg
+SourceName: luci-app-mtwifi-cfg
+Section: luci
+SourceDateEpoch: 1731400317
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 21506
+Description:  LuCI support for mtwifi-cfg

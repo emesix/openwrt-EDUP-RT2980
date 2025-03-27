@@ -1,0 +1,8 @@
+/lib/firmware/mt7981_patch_e1_hdr.bin
+/lib/modules/5.4.284/mt_wifi.ko
+/lib/firmware/WIFI_RAM_CODE_MT7981.bin
+/lib/modules/5.4.284/mtk_warp_proxy.ko
+/lib/firmware/MT7981_iPAiLNA_EEPROM.bin
+/lib/firmware/MT7981_ePAeLNA_EEPROM.bin
+/etc/modules.d/mt_wifi
+/lib/firmware/7981_WACPU_RAM_CODE_release.bin

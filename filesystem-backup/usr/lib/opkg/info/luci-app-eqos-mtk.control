@@ -1,0 +1,11 @@
+Package: luci-app-eqos-mtk
+Version: git-24.317.30717-fa0b760
+Depends: libc, tc, kmod-sched-core, kmod-ifb
+Source: package/mtk/applications/luci-app-eqos-mtk
+SourceName: luci-app-eqos-mtk
+Section: luci
+SourceDateEpoch: 1731400317
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3501
+Description:  LuCI support for Easy QoS

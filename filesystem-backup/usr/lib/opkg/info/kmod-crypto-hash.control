@@ -1,0 +1,11 @@
+Package: kmod-crypto-hash
+Version: 5.4.284-1
+Depends: kernel (=5.4.284-1-e594bb8dff708c7d35028b1e1b5391b3)
+Source: package/kernel/linux
+SourceName: kmod-crypto-hash
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1731400317
+Architecture: aarch64_cortex-a53
+Installed-Size: 240
+Description:  CryptoAPI hash support

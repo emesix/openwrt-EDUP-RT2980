@@ -1,0 +1,13 @@
+Package: ip-bridge
+Version: 5.11.0-3
+Depends: libc, libnl-tiny2022-05-17
+Source: package/network/utils/iproute2
+SourceName: ip-bridge
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1731400317
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 29732
+Description:  Bridge configuration utility from iproute2

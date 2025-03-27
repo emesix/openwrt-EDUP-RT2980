@@ -1,0 +1,20 @@
+Package: libopenssl-afalg_sync
+Version: 1.2.0-beta.1-1
+Depends: libc, libopenssl1.1, libopenssl-conf, kmod-crypto-user
+Conflicts: libopenssl-afalg
+Source: feeds/packages/libs/afalg_engine
+SourceName: libopenssl-afalg_sync
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1580395319
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8096
+Description:  This is an alternate AF_ALG engine for openssl, based on the devcrypto
+ engine, but using the AF_ALG interface instead of /dev/crypto
+ 
+ It is different than the AF_ALG engine that ships with OpenSSL:
+ - it is faster
+ - it uses sync calls, instead of async
+ - it suports more algorithms

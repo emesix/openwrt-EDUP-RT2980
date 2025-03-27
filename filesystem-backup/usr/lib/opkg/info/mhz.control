@@ -1,0 +1,13 @@
+Package: mhz
+Version: 2023-06-17-11aac239-1
+Depends: libc
+Source: package/utils/mhz
+SourceName: mhz
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1731400317
+Maintainer: Robert Marko <robimarko@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2456
+Description:  Tool to mathematically calculate the current CPU frequency.

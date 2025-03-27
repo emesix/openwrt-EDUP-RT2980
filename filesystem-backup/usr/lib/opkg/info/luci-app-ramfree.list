@@ -1,0 +1,2 @@
+/usr/share/rpcd/acl.d/luci-app-ramfree.json
+/usr/lib/lua/luci/controller/release_ram.lua

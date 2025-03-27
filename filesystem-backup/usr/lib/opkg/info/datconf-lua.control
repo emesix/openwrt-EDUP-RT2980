@@ -1,0 +1,11 @@
+Package: datconf-lua
+Version: 1
+Depends: libc, datconf, liblua5.1.5
+Source: package/mtk/applications/datconf
+SourceName: datconf-lua
+Section: MTK Properties
+SourceDateEpoch: 1731400317
+Maintainer: Weijie Gao <weijie.gao@mediatek.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5947
+Description:  Lua plugin for datconf

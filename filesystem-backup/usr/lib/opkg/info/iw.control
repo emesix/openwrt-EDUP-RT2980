@@ -1,0 +1,13 @@
+Package: iw
+Version: 5.19-1
+Depends: libc, libnl-tiny2022-05-17
+Source: package/network/utils/iw
+SourceName: iw
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1731400317
+CPE-ID: cpe:/a:kernel:iw
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 50630
+Description:  cfg80211 interface configuration utility

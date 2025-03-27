@@ -1,0 +1,12 @@
+Package: zram-swap
+Version: 8
+Depends: libc, kmod-zram
+Source: package/system/zram-swap
+SourceName: zram-swap
+Section: utils
+SourceDateEpoch: 1731400317
+Architecture: all
+Installed-Size: 2075
+Description:  A script to activate swaping on a compressed zram partition. This 
+ could be used to increase the available memory, by using compressed 
+ memory.
