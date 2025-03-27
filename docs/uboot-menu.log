@@ -1,0 +1,12 @@
+*** U-Boot Boot Menu 
+***Press UP/DOWN to move, ENTER to select, ESC/CTRL+C to quit
+
+1. Startup system (Default)
+2. Upgrade firmware
+3. Upgrade ATF BL2
+4. Upgrade ATF FIP
+5. Upgrade single image
+6. Load image
+0. U-Boot console
+
+Hit any key to stop autoboot: 3 

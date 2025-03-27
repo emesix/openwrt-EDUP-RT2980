@@ -1,0 +1,83 @@
+MT7981> help
+?         - alias for 'help'
+base      - print or set address offset
+bdinfo    - print Board Info structure
+blkcache  - block cache diagnostics and control
+boot      - boot default, i.e., run 'bootcmd'
+bootd     - boot default, i.e., run 'bootcmd'
+bootefi   - Boots an EFI payload from memory
+bootelf   - Boot from an ELF image in memory
+bootflow  - Boot flows
+booti     - boot Linux kernel 'Image' format from memory
+bootm     - boot application image from memory
+bootmenu  - ANSI terminal bootmenu
+bootp     - boot image via network using BOOTP/TFTP protocol
+bootvx    - Boot vxWorks from an ELF image
+button    - manage buttons
+chpart    - change active partition of a MTD device
+cmp       - memory compare
+coninfo   - print console devices and information
+cp        - memory copy
+crc32     - checksum calculation
+echo      - echo args to console
+editenv   - edit environment variable
+env       - environment handling commands
+exit      - exit script
+false     - do nothing, unsuccessfully
+fdt       - flattened device tree utility commands
+glbtn     - GL-iNet button check
+go        - start application at address 'addr'
+gpio      - query and control gpio pins
+help      - print command description/usage
+httpd     - Start failsafe HTTP server
+iminfo    - print header information for application image
+imxtract  - extract a part of a multi-image
+itest     - return true/false on integer compare
+led       - manage LEDs
+ledblink  - led blink
+loadb     - load binary file over serial line (kermit mode)
+loads     - load S-Record file over serial line
+loadx     - load binary file over serial line (xmodem mode)
+loady     - load binary file over serial line (ymodem mode)
+loop      - infinite loop on address range
+lzmadec   - lzma uncompress a memory region
+md        - memory display
+meminfo   - display memory information
+mm        - memory modify (auto-incrementing address)
+mtd       - MTD utils
+mtdparts  - define flash/nand partitions
+mtkautoboot- Display MediaTek bootmenu
+mtkboardboot- Boot MTK firmware
+mtkload   - MTK image loading utility
+mtkupgrade- MTK firmware/bootloader upgrading utility
+mw        - memory write (fill)
+net       - NET sub-system
+nm        - memory modify (constant address)
+nmbm      - NMBM utility commands
+panic     - Panic with optional message
+ping      - send ICMP ECHO_REQUEST to network host
+pinmux    - show pin-controller muxing
+printenv  - print environment variables
+pwm       - control pwm channels
+random    - fill memory with random pattern
+reset     - Perform RESET of the CPU
+run       - run commands in an environment variable
+saveenv   - save environment variables to persistent storage
+setenv    - set environment variables
+setexpr   - set environment variable as the result of eval expression
+showlayout- Show mtd layout
+showvar   - print local hushshell variables
+sleep     - delay execution for some time
+smc       - Issue a Secure Monitor Call
+source    - run script from memory
+test      - minimal test like /bin/sh
+tftpboot  - boot image via network using TFTP protocol
+tftpput   - TFTP put command, for uploading files to a server
+true      - do nothing, successfully
+ubi       - ubi commands
+ubifsload - load file from an UBIFS filesystem
+ubifsls   - list files in a directory
+ubifsmount- mount UBIFS volume
+ubifsumount- unmount UBIFS volume
+version   - print monitor, compiler and linker version
+MT7981> 

@@ -1,0 +1,13 @@
+cat /sys/kernel/debug/gpio
+gpiochip0: GPIOs 455-511, parent: platform/11d00000.pinctrl, pinctrl_moore:
+ gpio-455 (                    |mesh                ) in  hi IRQ ACTIVE LOW
+ gpio-456 (                    |reset               ) in  hi IRQ ACTIVE LOW
+ gpio-460 (                    |led_wan_red         ) out hi ACTIVE LOW
+ gpio-461 (                    |led_wan_green       ) out lo ACTIVE LOW
+ gpio-463 (                    |ctrl_led_all        ) out lo ACTIVE LOW
+ gpio-466 (                    |led_internet        ) out lo ACTIVE LOW
+ gpio-467 (                    |led_power           ) out hi ACTIVE LOW
+ gpio-468 (                    |led_mesh            ) out hi ACTIVE LOW
+ gpio-489 (                    |led_wifi            ) out hi ACTIVE LOW
+ gpio-494 (                    |mt753x-reset        ) out hi 
+root@Openwrt:/# 

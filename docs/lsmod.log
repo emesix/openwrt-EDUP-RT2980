@@ -1,0 +1,215 @@
+
+root@Openwrt:/# lsmod
+act_gact               16384  0 
+act_mirred             16384  0 
+act_skbedit            16384  0 
+algif_rng              16384  0 
+algif_skcipher         16384  0 
+arc4                   16384  0 
+asn1_decoder           16384  1 nf_nat_snmp_basic
+autofs4                36864  1 
+ccm                    20480  0 
+chacha_neon            20480  1 libchacha20poly1305
+cls_basic              16384  0 
+cls_flow               20480  0 
+cls_fw                 16384  0 
+cls_matchall           16384  0 
+cls_route              20480  0 
+cls_u32                24576  0 
+compat_xtables         16384  0 
+conninfra             167936  1 mt_wifi
+crc_ccitt              16384  1 ppp_async
+crc32c_generic         16384  1 
+cryptodev              53248  0 
+ctr                    16384  0 
+ebt_802_3              16384  0 
+ebt_among              16384  0 
+ebt_arp                16384  0 
+ebt_arpreply           16384  0 
+ebt_dnat               16384  0 
+ebt_ip                 16384  0 
+ebt_ip6                16384  0 
+ebt_limit              16384  0 
+ebt_mark               16384  0 
+ebt_mark_m             16384  0 
+ebt_pkttype            16384  0 
+ebt_redirect           16384  0 
+ebt_snat               16384  0 
+ebt_stp                16384  0 
+ebt_vlan               16384  0 
+ebtable_broute         16384  0 
+ebtable_filter         16384  0 
+ebtable_nat            16384  0 
+ebtables               40960  3 ebtable_nat,ebtable_filter,ebtable_broute
+em_u32                 16384  0 
+fat                    73728  1 vfat
+gcm                    20480  0 
+gf128mul               16384  1 ghash_generic
+ghash_generic          16384  0 
+gpio_button_hotplug    16384  0 
+ifb                    16384  0 
+inet_diag              24576  3 udp_diag,tcp_diag,raw_diag
+ip_set                 40960 16 xt_set,ip_set_list_set,ip_set_hash_netportnet,ip_set_hash_netport,ip_set_hash_netnet,ip_set_hash_netiface,ip_set_hash_net,ip_set_hash_mac,ip_set_hash_ipportnet,ip_set_hash_ipportip,ip_set_hash_ipport,ip_set_hash_ipmark,ip_set_hash_ip,ip_set_bitmap_port,ip_set_bitmap_ipmac,ip_set_bitmap_ip
+ip_set_bitmap_ip       20480  0 
+ip_set_bitmap_ipmac    20480  0 
+ip_set_bitmap_port     20480  0 
+ip_set_hash_ip         36864  0 
+ip_set_hash_ipmark     36864  0 
+ip_set_hash_ipport     36864  0 
+ip_set_hash_ipportip   36864  0 
+ip_set_hash_ipportnet   40960  0 
+ip_set_hash_mac        24576  0 
+ip_set_hash_net        40960  0 
+ip_set_hash_netiface   40960  0 
+ip_set_hash_netnet     40960  0 
+ip_set_hash_netport    40960  0 
+ip_set_hash_netportnet   45056  0 
+ip_set_list_set        20480  0 
+ip_tables              32768  5 iptable_raw,iptable_nat,iptable_mangle,iptable_filter
+ip_tunnel              24576  1 sit
+ip6_tables             32768 26 ip6table_raw,ip6table_nat,ip6table_mangle,ip6table_filter
+ip6_udp_tunnel         16384  1 wireguard
+ip6t_NPT               16384  0 
+ip6t_REJECT            16384  2 
+ip6t_ah                16384  0 
+ip6t_eui64             16384  0 
+ip6t_frag              16384  0 
+ip6t_hbh               16384  0 
+ip6t_ipv6header        16384  0 
+ip6t_mh                16384  0 
+ip6t_rt                16384  0 
+ip6table_filter        16384  1 
+ip6table_mangle        16384  1 
+ip6table_nat           16384  0 
+ip6table_raw           16384  1 
+ipt_ECN                16384  0 
+ipt_REJECT             16384  2 
+iptable_filter         16384  1 
+iptable_mangle         16384  1 
+iptable_nat            16384  1 
+iptable_raw            16384  1 
+leds_gpio              16384  0 
+libchacha              16384  1 chacha_neon
+libchacha20poly1305    16384  1 wireguard
+libcrc32c              16384  0 
+libcurve25519_generic   40960  1 wireguard
+macvlan                24576  0 
+md4                    16384  0 
+mt_wifi              7806976  3 mtk_warp_proxy
+mtk_warp              368640  1 mtk_warp_proxy
+mtk_warp_proxy         16384  0 
+mtkhnat               102400  2 mt_wifi,mtk_warp
+nf_conncount           24576  1 xt_connlimit
+nf_conntrack_amanda    16384  3 nf_nat_amanda
+nf_conntrack_broadcast   16384  1 nf_conntrack_snmp
+nf_conntrack_ftp       16384  3 nf_nat_ftp
+nf_conntrack_h323      49152  5 nf_nat_h323
+nf_conntrack_irc       16384  2 nf_nat_irc
+nf_conntrack_netlink   40960  0 
+nf_conntrack_pptp      16384  2 nf_nat_pptp
+nf_conntrack_sip       32768  5 nf_nat_sip
+nf_conntrack_snmp      16384  2 nf_nat_snmp_basic
+nf_conntrack_tftp      16384  3 nf_nat_tftp
+nf_dup_ipv4            16384  1 xt_TEE
+nf_dup_ipv6            16384  1 xt_TEE
+nf_flow_table          28672  2 xt_FLOWOFFLOAD,nf_flow_table_hw
+nf_flow_table_hw       16384  1 
+nf_log_common          16384  2 nf_log_ipv4,nf_log_ipv6
+nf_log_ipv4            16384  0 
+nf_log_ipv6            16384  0 
+nf_nat                 45056 13 xt_nat,xt_REDIRECT,xt_NETMAP,xt_MASQUERADE,nf_nat_tftp,nf_nat_sip,nf_nat_pptp,nf_nat_irc,nf_nat_h323,nf_nat_ftp,nf_nat_amanda,iptable_nat,ip6table_nat
+nf_nat_amanda          16384  0 
+nf_nat_ftp             16384  0 
+nf_nat_h323            20480  0 
+nf_nat_irc             16384  0 
+nf_nat_pptp            16384  0 
+nf_nat_sip             20480  0 
+nf_nat_snmp_basic      16384  0 
+nf_nat_tftp            16384  0 
+nf_reject_ipv4         16384  1 ipt_REJECT
+nf_reject_ipv6         16384  1 ip6t_REJECT
+nf_socket_ipv4         16384  1 xt_socket
+nf_socket_ipv6         16384  1 xt_socket
+nf_tproxy_ipv4         16384  1 xt_TPROXY
+nf_tproxy_ipv6         16384  1 xt_TPROXY
+nfnetlink              16384  2 nf_conntrack_netlink,ip_set
+nls_cp437              20480  0 
+nls_iso8859_1          16384  0 
+nls_utf8               16384  0 
+poly1305_neon          20480  1 libchacha20poly1305
+ppp_async              20480  0 
+ppp_generic            45056  4 pppoe,ppp_async,pppox,ppp_mppe
+ppp_mppe               16384  0 
+pppoe                  24576  0 
+pppox                  16384  1 pppoe
+raw_diag               16384  0 
+sch_hfsc               24576  0 
+sch_htb                24576  0 
+sch_ingress            16384  0 
+sch_tbf                20480  0 
+seqiv                  16384  0 
+sit                    28672  0 
+slhc                   16384  1 ppp_generic
+tcp_bbr                20480  5 
+tcp_diag               16384  0 
+ts_bm                  16384  0 
+ts_fsm                 16384  0 
+ts_kmp                 16384  6 
+tun                    53248  0 
+udp_diag               16384  0 
+udp_tunnel             16384  1 wireguard
+vfat                   20480  0 
+wireguard              73728  0 
+x_tables               32768 84 ipt_REJECT,xt_u32,xt_time,xt_tcpudp,xt_tcpmss,xt_string,xt_statistic,xt_state,xt_socket,xt_recent,xt_quota,xt_pkttype,xt_owner,xt_nat,xt_multiport,xt_mark,xt_mac,xt_limit,xt_length,xt_ipv4options,xt_iprange,xt_iface,xt_hl,xt_helper,xt_hashlimit,xt_ecn,xt_dscp,xt_conntrack,xt_connmark,xt_connlimit,xt_connbytes,xt_comment,xt_cgroup,xt_bpf,xt_addrtype,xt_TPROXY,xt_TEE,xt_TCPMSS,xt_REDIRECT,xt_PROTO,xt_NETMAP,xt_MASQUERADE,xt_LOG,xt_IPMARK,xt_HL,xt_FLOWOFFLOAD,xt_DSCP,xt_CT,xt_CLASSIFY,iptable_raw,iptable_mangle,iptable_filter,ipt_ECN,ip6table_raw,ip_tables,ebtables,ebt_vlan,ebt_stp,ebt_snat,ebt_redirect,ebt_pkttype,ebt_mark_m,ebt_mark,ebt_limit,ebt_ip6,ebt_ip,ebt_dnat,ebt_arpreply,ebt_arp,ebt_among,ebt_802_3,xt_set,ip6t_NPT,ip6t_rt,ip6t_mh,ip6t_ipv6header,ip6t_hbh,ip6t_frag,ip6t_eui64,ip6t_ah,ip6table_mangle,ip6table_filter,ip6_tables,ip6t_REJECT
+xt_CLASSIFY            16384  0 
+xt_CT                  16384 17 
+xt_DSCP                16384  0 
+xt_FLOWOFFLOAD         16384  0 
+xt_HL                  16384  0 
+xt_IPMARK              16384  0 
+xt_LOG                 16384  0 
+xt_MASQUERADE          16384  1 
+xt_NETMAP              16384  0 
+xt_PROTO               16384  0 
+xt_REDIRECT            16384  0 
+xt_TCPMSS              16384  4 
+xt_TEE                 16384  0 
+xt_TPROXY              16384  0 
+xt_addrtype            16384  0 
+xt_bpf                 20480  0 
+xt_cgroup              16384  0 
+xt_comment             16384146 
+xt_connbytes           16384  0 
+xt_connlimit           16384  0 
+xt_connmark            16384  0 
+xt_conntrack           16384 14 
+xt_dscp                16384  0 
+xt_ecn                 16384  0 
+xt_hashlimit           20480  0 
+xt_helper              16384  0 
+xt_hl                  16384  0 
+xt_iface               16384  0 
+xt_iprange             16384  0 
+xt_ipv4options         16384  0 
+xt_length              16384  0 
+xt_limit               16384 20 
+xt_mac                 16384  0 
+xt_mark                16384  0 
+xt_multiport           16384  0 
+xt_nat                 16384  0 
+xt_owner               16384  0 
+xt_pkttype             16384  0 
+xt_quota               16384  0 
+xt_recent              24576  0 
+xt_set                 16384  0 
+xt_socket              16384  0 
+xt_state               16384  0 
+xt_statistic           16384  0 
+xt_string              16384  0 
+xt_tcpmss              16384  0 
+xt_tcpudp              16384 29 
+xt_time                16384  0 
+xt_u32                 16384  0 
+zram                   24576  1 
+zsmalloc               24576  1 zram
+root@Openwrt:/# 
