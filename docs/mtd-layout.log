@@ -1,0 +1,8 @@
+root@Openwrt:/# cat /proc/mtd
+dev:    size   erasesize  name
+mtd0: 08000000 00020000 "spi0.0"
+mtd1: 00100000 00020000 "BL2"
+mtd2: 00080000 00020000 "u-boot-env"
+mtd3: 00200000 00020000 "Factory"
+mtd4: 00200000 00020000 "FIP"
+mtd5: 07000000 00020000 "ubi"

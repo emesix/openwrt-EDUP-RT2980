@@ -1,0 +1,7 @@
+root@Openwrt:/# df -h
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                10.8M     10.8M         0 100% /rom
+tmpfs                   112.4M     52.0K    112.3M   0% /tmp
+/dev/ubi0_2              82.8M    276.0K     78.2M   0% /overlay
+overlayfs:/overlay       82.8M    276.0K     78.2M   0% /
+tmpfs                   512.0K         0    512.0K   0% /dev

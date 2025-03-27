@@ -1,0 +1,11 @@
+root@Openwrt:/# cat /proc/partitions
+major minor  #blocks  name
+
+  31        0     131072 mtdblock0
+  31        1       1024 mtdblock1
+  31        2        512 mtdblock2
+  31        3       2048 mtdblock3
+  31        4       2048 mtdblock4
+  31        5     114688 mtdblock5
+ 253        0      10912 ubiblock0_1
+ 252        0     114688 zram0

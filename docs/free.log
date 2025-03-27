@@ -1,0 +1,4 @@
+root@Openwrt:/# free -m
+              total        used        free      shared  buff/cache   available
+Mem:         230172      110500       70912          52       48760      104528
+Swap:        114684           0      114684
