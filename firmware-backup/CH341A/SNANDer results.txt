@@ -1,0 +1,44 @@
+ % sudo ./snander -i
+
+SNANDer - Serial Nor/nAND/Eeprom programmeR v.1.7.8 by McMCC <mcmcc@mail.ru>
+
+Found programmer device: WinChipHead (WCH) - CH341A
+Device revision is 3.0.4
+spi device id: ff ff ff ff ff (ffffffff)
+SPI NOR Flash Not Detected!
+spi_nand_probe: mfr_id = 0xff, dev_id = 0xff, dev_id_2 = 0xff
+SPI NAND Flash Not Detected!
+emesix@iZombie ~/CH431A/SNANDer/build
+ % sudo ./snander -i
+
+SNANDer - Serial Nor/nAND/Eeprom programmeR v.1.7.8 by McMCC <mcmcc@mail.ru>
+
+Found programmer device: WinChipHead (WCH) - CH341A
+Device revision is 3.0.4
+spi device id: ff c8 1 7f 7f (c8017f7f)
+SPI NOR Flash Not Detected!
+spi_nand_probe: mfr_id = 0xc8, dev_id = 0x1, dev_id_2 = 0x7f
+Get Status Register 1: 0x7c
+Get Status Register 2: 0x10
+Using Flash ECC.
+Detected SPI NAND Flash: ESMT F50L1G41LB, Flash Size: 128MB, OOB Size: 64B
+emesix@iZombie ~/CH431A/SNANDer/build
+ % sudo ./snander -d -r EDUP_openWRT_no-ecc.bin
+
+SNANDer - Serial Nor/nAND/Eeprom programmeR v.1.7.8 by McMCC <mcmcc@mail.ru>
+
+Found programmer device: WinChipHead (WCH) - CH341A
+Device revision is 3.0.4
+spi device id: ff c8 1 7f 7f (c8017f7f)
+SPI NOR Flash Not Detected!
+spi_nand_probe: mfr_id = 0xc8, dev_id = 0x1, dev_id_2 = 0x7f
+Get Status Register 1: 0xc1
+Get Status Register 2: 0x10
+Disable Flash ECC.
+Detected SPI NAND Flash: ESMT F50L1G41LB, Flash Size: 128MB, OOB Size: 64B
+READ:
+Read addr = 0x0000000000000000, len = 0x0000000008400000
+Read 100% [138412032] of [138412032] bytes      
+Elapsed time: 1267 seconds
+Status: OK
+emesix@iZombie ~/CH431A/SNANDer/build
